@@ -4,8 +4,7 @@ Assignment 4
 
 #String programming
 
-1. I wrote RemoveDuplicates.java to remove Duplicates from a String.(Take any String ex with duplicates
-character)<br/>
+1. I wrote RemoveDuplicates.java to remove Duplicates from a String.<br/>
 2. I wrote PrintDuplicates.java to print Duplicates characters from the String.<br/>
 3. I wrote Palindrome.java to check if “2552” is palindrome or not.<br/>
 4. I wrote ConsonantVowelSpecial.java to count the number of consonants, vowels, special characters in a String.<br/>
