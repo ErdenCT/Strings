@@ -43,7 +43,9 @@ public class RemoveDuplicates {
 			System.out.print(c +" ");
 		}
 		System.out.println();
-		RemoveDuplicates.removeDuplicates(str);		
+		RemoveDuplicates.removeDuplicates(str);	
+		
+		scan.close();
 	}
 
 }
