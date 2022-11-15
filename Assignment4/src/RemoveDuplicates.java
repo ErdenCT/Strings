@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class RemoveDuplicates {
 	
@@ -25,9 +26,15 @@ public class RemoveDuplicates {
 		}
 	}
 	public static void main(String[] args) {
-		String s = "Tennessee";
+		//String s = "Tennessee";
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Please enter a String with duplicate characters: ");
+		String s=scan.nextLine();
 		
-		System.out.println("Our string: ");
+		System.out.println("Our string: \n" + s);
+		s=s.toLowerCase().replace(" ", "");
+		
+		System.out.println("Our characters: ");
 		char[] str=new char[s.length()]; //turning string s into a char array
 		for(int i=0; i<str.length;i++) {
 			str[i]=s.charAt(i);
