@@ -1,4 +1,4 @@
-import java.util.Arrays;
+
 
 public class DuplicateSortRemove {
 	
@@ -65,7 +65,7 @@ public class DuplicateSortRemove {
 	
 	public static void main(String[] args) {
 		DuplicateSortRemove obj= new DuplicateSortRemove();
-		int[] arr= {1,3,5,7,1,4,7,8,15,9,3,2,4,8};
+		int[] arr= {1,3,5,7,1,4,7,8,15,9,3,2,4,8,7};
 		
 		
 		obj.findDups(arr);
